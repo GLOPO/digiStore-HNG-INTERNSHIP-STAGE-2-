@@ -20,3 +20,9 @@ export let headphones = [
   {id: 3, name: 'Sonic Breeze', image: set3},
   {id: 4, name: 'Bass Surge', image: set4}
 ]
+
+export let items = [
+  {id: 1, name: 'Stellar Gear', image: watch1},
+  {id: 2, name: 'Sonic Breeze', image: set3},
+  {id: 3, name: 'Bass Surge', image: set4} 
+]

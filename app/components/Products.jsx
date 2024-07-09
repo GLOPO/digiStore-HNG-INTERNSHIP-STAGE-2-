@@ -2,15 +2,18 @@ import React from "react";
 import { watches, headphones } from "../../db";
 import Image from "next/image";
 import cart from '../assets/cart.jpg'
+import Link from "next/link";
 
 const Products = () => {
   return (
     <main className="container">
       <div className="flex justify-between items-baseline">
         <h1 className="my-4">Product Listing</h1>
+        <Link href={'/pages/cart'}>
         <div className="w-5 rounded-full" role="button">
         <Image src={cart} alt="cart"/>
         </div>
+        </Link>
       </div>
     {/* watches  */}
       <main>
